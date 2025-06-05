@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center
+}
+
+/* Para computadores */
+@media(min-width:768px){
+  body{
+    background-color: steelblue;
+  }
+h1{
+  font-size: 50px;
+  color: darkmagenta;
+  font-weight: bold;
+}
+  p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+/* Para tablets */
+@media (max-width:992px){
+  body{
+    background-color: darkgoldenrod;
+  }
+  h1{
+    font-size: 40px;
+    color: darkcyan;
+  }
+  p{
+    font-size: 20px;
+    color: rgb(39, 45, 27);
+  }
+}
+
+/* Para telefonos */
+@media (max-width:480px){
+  body{
+    background-color: indianred;
+  }
+  h1{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
+  p{
+    font-weight: bold;
+    font-size: 22px;
+  }
+}
+
