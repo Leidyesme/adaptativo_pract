@@ -22,6 +22,15 @@ h1{
     font-weight: bold;
     text-align: center;
   }
+  a{
+    display: inline-block;
+    font-size: 54px;
+    margin: 6px;
+    margin-left: 18px;
+    color: rgb(3, 32, 77);
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
 
 /* Para tablets */
@@ -35,7 +44,11 @@ h1{
   }
   p{
     font-size: 20px;
-    color: rgb(39, 45, 27);
+    color: rgb(3, 54, 26);
+  }
+  a{
+    font-size: 32px;
+    color: darkgreen;
   }
 }
 
@@ -52,6 +65,15 @@ h1{
   p{
     font-weight: bold;
     font-size: 22px;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(80, 11, 145);
+    font-size: 29px;
+    margin: 10px 16px;;
+  }
+  nav{
+    margin-top: 10px;
   }
 }
 
